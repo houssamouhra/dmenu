@@ -7,10 +7,10 @@ static const char *fonts[] = {"JetBrainsMono NF:size=10"};
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*              fg          bg          */
-    [SchemeNorm]   = { "#c0caf5", "#1a1b26" },
-    [SchemeSel]    = { "#c0caf5", "#33467c" },
-    [SchemeOut]    = { "#2ac3de", "#1a1b26" },
-    [SchemeCursor] = { "#1a1b26", "#bb9af7" },
+    [SchemeNorm]   = { "#c0caf5", "#16161e" },
+    [SchemeSel]    = { "#c0caf5", "#292e42" },
+    [SchemeOut]    = { "#2ac3de", "#16161e" },
+    [SchemeCursor] = { "#16161e", "#bb9af7" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
